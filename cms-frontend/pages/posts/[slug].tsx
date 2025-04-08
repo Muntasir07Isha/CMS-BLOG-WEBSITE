@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 // pages/posts/[slug].tsx
 import { GetServerSideProps } from 'next'
 import { client, urlFor } from '../../lib/sanityClient'

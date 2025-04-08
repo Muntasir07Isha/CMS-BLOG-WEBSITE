@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import {createClient} from '@sanity/client'
 import imageUrlBuilder from '@sanity/image-url'
 
