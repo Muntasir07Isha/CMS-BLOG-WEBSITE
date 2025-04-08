@@ -7,9 +7,10 @@ type Post = {
   _id: string
   title: string
   slug: { current: string }
-  mainImage?: any
-  body: any
+  mainImage?: { asset: { url: string } }
+  body?: any
 }
+
 
 export default function Home() {
   const [posts, setPosts] = useState<Post[]>([])

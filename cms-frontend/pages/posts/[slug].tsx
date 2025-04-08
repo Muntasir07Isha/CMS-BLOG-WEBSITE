@@ -5,10 +5,13 @@ import Layout from '../../components/Layout'
 import { PortableText } from '@portabletext/react'
 
 type Post = {
+  _id: string
   title: string
-  mainImage?: any
-  body: any
+  slug: { current: string }
+  mainImage?: { asset: { url: string } }
+  body?: any 
 }
+
 
 export default function PostPage({ post }: { post: Post | null }) {
   if (!post) {
